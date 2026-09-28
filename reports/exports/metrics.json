@@ -1,8 +1,8 @@
 {
  "meta": {
   "source": "City of Cincinnati 311 Non-Emergency Service Requests",
-  "snapshot_file": "service_requests__2026-09-18.csv.gz",
-  "snapshot_date": "2026-09-18",
+  "snapshot_file": "service_requests__2026-09-28.csv.gz",
+  "snapshot_date": "2026-09-28",
   "window_start": "2023-01-01",
   "window_end": "2026-08-31",
   "total_requests": 517287,
@@ -703,7 +703,7 @@
    "duplicates": 43.0,
    "evaluable": 297.0,
    "on_time": 188.0,
-   "open_overdue": 97.0,
+   "open_overdue": 96.0,
    "median_days_to_close": 222.0
   },
   {
@@ -838,7 +838,7 @@
    "duplicates": 26.0,
    "evaluable": 345.0,
    "on_time": 232.0,
-   "open_overdue": 94.0,
+   "open_overdue": 92.0,
    "median_days_to_close": 28.0
   },
   {
@@ -988,8 +988,8 @@
    "duplicates": 47.0,
    "evaluable": 346.0,
    "on_time": 206.0,
-   "open_overdue": 132.0,
-   "median_days_to_close": 17.0
+   "open_overdue": 131.0,
+   "median_days_to_close": 17.5
   },
   {
    "sr_type": "BLD-RES",
@@ -1061,9 +1061,9 @@
    "month_number": 9,
    "intake": 346.0,
    "duplicates": 24.0,
-   "evaluable": 168.0,
-   "on_time": 95.0,
-   "open_overdue": 73.0,
+   "evaluable": 287.0,
+   "on_time": 154.0,
+   "open_overdue": 132.0,
    "median_days_to_close": 18.0
   },
   {
@@ -1109,7 +1109,7 @@
    "evaluable": 0.0,
    "on_time": 0.0,
    "open_overdue": 0.0,
-   "median_days_to_close": 10.0
+   "median_days_to_close": 11.0
   },
   {
    "sr_type": "BLD-RES",
@@ -1179,7 +1179,7 @@
    "year_month": "2026-05",
    "year": 2026,
    "month_number": 5,
-   "intake": 454.0,
+   "intake": 455.0,
    "duplicates": 30.0,
    "evaluable": 0.0,
    "on_time": 0.0,
@@ -1224,8 +1224,8 @@
    "year_month": "2026-08",
    "year": 2026,
    "month_number": 8,
-   "intake": 540.0,
-   "duplicates": 29.0,
+   "intake": 541.0,
+   "duplicates": 31.0,
    "evaluable": 0.0,
    "on_time": 0.0,
    "open_overdue": 0.0,
@@ -1528,8 +1528,8 @@
    "duplicates": 57.0,
    "evaluable": 430.0,
    "on_time": 30.0,
-   "open_overdue": 14.0,
-   "median_days_to_close": 41.0
+   "open_overdue": 10.0,
+   "median_days_to_close": 41.5
   },
   {
    "sr_type": "CMDVABDV",
@@ -1543,8 +1543,8 @@
    "duplicates": 44.0,
    "evaluable": 398.0,
    "on_time": 16.0,
-   "open_overdue": 9.0,
-   "median_days_to_close": 62.0
+   "open_overdue": 6.0,
+   "median_days_to_close": 63.0
   },
   {
    "sr_type": "CMDVABDV",
@@ -1555,11 +1555,11 @@
    "year": 2025,
    "month_number": 10,
    "intake": 434.0,
-   "duplicates": 46.0,
-   "evaluable": 388.0,
+   "duplicates": 47.0,
+   "evaluable": 387.0,
    "on_time": 13.0,
-   "open_overdue": 16.0,
-   "median_days_to_close": 50.5
+   "open_overdue": 12.0,
+   "median_days_to_close": 52.0
   },
   {
    "sr_type": "CMDVABDV",
@@ -1570,11 +1570,11 @@
    "year": 2025,
    "month_number": 11,
    "intake": 353.0,
-   "duplicates": 57.0,
-   "evaluable": 296.0,
+   "duplicates": 58.0,
+   "evaluable": 295.0,
    "on_time": 10.0,
-   "open_overdue": 18.0,
-   "median_days_to_close": 58.0
+   "open_overdue": 13.0,
+   "median_days_to_close": 61.0
   },
   {
    "sr_type": "CMDVABDV",
@@ -1588,8 +1588,8 @@
    "duplicates": 45.0,
    "evaluable": 239.0,
    "on_time": 10.0,
-   "open_overdue": 22.0,
-   "median_days_to_close": 77.0
+   "open_overdue": 15.0,
+   "median_days_to_close": 84.0
   },
   {
    "sr_type": "CMDVABDV",
@@ -1603,8 +1603,8 @@
    "duplicates": 57.0,
    "evaluable": 284.0,
    "on_time": 4.0,
-   "open_overdue": 26.0,
-   "median_days_to_close": 63.5
+   "open_overdue": 20.0,
+   "median_days_to_close": 68.0
   },
   {
    "sr_type": "CMDVABDV",
@@ -1618,8 +1618,8 @@
    "duplicates": 48.0,
    "evaluable": 310.0,
    "on_time": 10.0,
-   "open_overdue": 38.0,
-   "median_days_to_close": 59.0
+   "open_overdue": 28.0,
+   "median_days_to_close": 65.0
   },
   {
    "sr_type": "CMDVABDV",
@@ -1630,11 +1630,11 @@
    "year": 2026,
    "month_number": 3,
    "intake": 404.0,
-   "duplicates": 47.0,
-   "evaluable": 357.0,
+   "duplicates": 48.0,
+   "evaluable": 356.0,
    "on_time": 14.0,
-   "open_overdue": 34.0,
-   "median_days_to_close": 39.0
+   "open_overdue": 17.0,
+   "median_days_to_close": 42.0
   },
   {
    "sr_type": "CMDVABDV",
@@ -1648,8 +1648,8 @@
    "duplicates": 82.0,
    "evaluable": 360.0,
    "on_time": 14.0,
-   "open_overdue": 37.0,
-   "median_days_to_close": 34.0
+   "open_overdue": 22.0,
+   "median_days_to_close": 35.5
   },
   {
    "sr_type": "CMDVABDV",
@@ -1663,8 +1663,8 @@
    "duplicates": 69.0,
    "evaluable": 322.0,
    "on_time": 62.0,
-   "open_overdue": 62.0,
-   "median_days_to_close": 48.5
+   "open_overdue": 41.0,
+   "median_days_to_close": 53.0
   },
   {
    "sr_type": "CMDVABDV",
@@ -1674,12 +1674,12 @@
    "year_month": "2026-06",
    "year": 2026,
    "month_number": 6,
-   "intake": 458.0,
+   "intake": 459.0,
    "duplicates": 108.0,
    "evaluable": 349.0,
    "on_time": 100.0,
-   "open_overdue": 99.0,
-   "median_days_to_close": 45.0
+   "open_overdue": 71.0,
+   "median_days_to_close": 54.5
   },
   {
    "sr_type": "CMDVABDV",
@@ -1690,11 +1690,11 @@
    "year": 2026,
    "month_number": 7,
    "intake": 415.0,
-   "duplicates": 74.0,
-   "evaluable": 341.0,
+   "duplicates": 78.0,
+   "evaluable": 337.0,
    "on_time": 130.0,
-   "open_overdue": 97.0,
-   "median_days_to_close": 29.0
+   "open_overdue": 67.0,
+   "median_days_to_close": 32.5
   },
   {
    "sr_type": "CMDVABDV",
@@ -1704,12 +1704,12 @@
    "year_month": "2026-08",
    "year": 2026,
    "month_number": 8,
-   "intake": 477.0,
-   "duplicates": 82.0,
-   "evaluable": 218.0,
-   "on_time": 96.0,
-   "open_overdue": 108.0,
-   "median_days_to_close": 7.0
+   "intake": 475.0,
+   "duplicates": 88.0,
+   "evaluable": 353.0,
+   "on_time": 134.0,
+   "open_overdue": 183.0,
+   "median_days_to_close": 11.0
   },
   {
    "sr_type": "DAPUB1",
@@ -2817,7 +2817,7 @@
    "intake": 393.0,
    "duplicates": 43.0,
    "evaluable": 350.0,
-   "on_time": 304.0,
+   "on_time": 303.0,
    "open_overdue": 0.0,
    "median_days_to_close": 5.0
   },
@@ -2907,7 +2907,7 @@
    "intake": 250.0,
    "duplicates": 37.0,
    "evaluable": 213.0,
-   "on_time": 184.0,
+   "on_time": 183.0,
    "open_overdue": 0.0,
    "median_days_to_close": 11.0
   },
@@ -2937,7 +2937,7 @@
    "intake": 272.0,
    "duplicates": 33.0,
    "evaluable": 239.0,
-   "on_time": 212.0,
+   "on_time": 211.0,
    "open_overdue": 0.0,
    "median_days_to_close": 9.0
   },
@@ -2952,7 +2952,7 @@
    "intake": 470.0,
    "duplicates": 78.0,
    "evaluable": 392.0,
-   "on_time": 359.0,
+   "on_time": 356.0,
    "open_overdue": 3.0,
    "median_days_to_close": 12.0
   },
@@ -2967,7 +2967,7 @@
    "intake": 332.0,
    "duplicates": 43.0,
    "evaluable": 289.0,
-   "on_time": 257.0,
+   "on_time": 256.0,
    "open_overdue": 3.0,
    "median_days_to_close": 9.0
   },
@@ -2997,7 +2997,7 @@
    "intake": 349.0,
    "duplicates": 60.0,
    "evaluable": 289.0,
-   "on_time": 276.0,
+   "on_time": 275.0,
    "open_overdue": 5.0,
    "median_days_to_close": 8.5
   },
@@ -3013,8 +3013,8 @@
    "duplicates": 47.0,
    "evaluable": 359.0,
    "on_time": 354.0,
-   "open_overdue": 3.0,
-   "median_days_to_close": 4.0
+   "open_overdue": 1.0,
+   "median_days_to_close": 4.5
   },
   {
    "sr_type": "LITR-PRV",
@@ -3025,11 +3025,11 @@
    "year": 2026,
    "month_number": 8,
    "intake": 403.0,
-   "duplicates": 60.0,
-   "evaluable": 30.0,
-   "on_time": 30.0,
-   "open_overdue": 0.0,
-   "median_days_to_close": 4.0
+   "duplicates": 62.0,
+   "evaluable": 151.0,
+   "on_time": 148.0,
+   "open_overdue": 3.0,
+   "median_days_to_close": 5.0
   },
   {
    "sr_type": "MTL-FRN",
@@ -3673,7 +3673,7 @@
    "duplicates": 25.0,
    "evaluable": 3917.0,
    "on_time": 2985.0,
-   "open_overdue": 534.0,
+   "open_overdue": 533.0,
    "median_days_to_close": 11.0
   },
   {
@@ -3688,7 +3688,7 @@
    "duplicates": 11.0,
    "evaluable": 3072.0,
    "on_time": 2113.0,
-   "open_overdue": 336.0,
+   "open_overdue": 330.0,
    "median_days_to_close": 12.0
   },
   {
@@ -4348,7 +4348,7 @@
    "duplicates": 0.0,
    "evaluable": 119.0,
    "on_time": 106.0,
-   "open_overdue": 2.0,
+   "open_overdue": 0.0,
    "median_days_to_close": 7.0
   },
   {
@@ -4974,11 +4974,11 @@
    "year_month": "2026-06",
    "year": 2026,
    "month_number": 6,
-   "intake": 156.0,
+   "intake": 155.0,
    "duplicates": 7.0,
-   "evaluable": 149.0,
+   "evaluable": 148.0,
    "on_time": 116.0,
-   "open_overdue": 16.0,
+   "open_overdue": 15.0,
    "median_days_to_close": 7.0
   },
   {
@@ -4991,9 +4991,9 @@
    "month_number": 7,
    "intake": 163.0,
    "duplicates": 2.0,
-   "evaluable": 159.0,
+   "evaluable": 160.0,
    "on_time": 133.0,
-   "open_overdue": 11.0,
+   "open_overdue": 12.0,
    "median_days_to_close": 8.0
   },
   {
@@ -5004,12 +5004,12 @@
    "year_month": "2026-08",
    "year": 2026,
    "month_number": 8,
-   "intake": 138.0,
+   "intake": 139.0,
    "duplicates": 3.0,
-   "evaluable": 121.0,
-   "on_time": 97.0,
-   "open_overdue": 16.0,
-   "median_days_to_close": 8.0
+   "evaluable": 134.0,
+   "on_time": 107.0,
+   "open_overdue": 12.0,
+   "median_days_to_close": 9.0
   },
   {
    "sr_type": "PTHOLE",
@@ -6988,7 +6988,7 @@
    "duplicates": 0.0,
    "evaluable": 157.0,
    "on_time": 156.0,
-   "open_overdue": 1.0,
+   "open_overdue": 0.0,
    "median_days_to_close": 7.0
   },
   {
@@ -8306,7 +8306,7 @@
    "month_number": 8,
    "intake": 436.0,
    "duplicates": 0.0,
-   "evaluable": 435.0,
+   "evaluable": 436.0,
    "on_time": 75.0,
    "open_overdue": 77.0,
    "median_days_to_close": 15.0
@@ -10616,9 +10616,9 @@
    "month_number": 7,
    "intake": 240.0,
    "duplicates": 0.0,
-   "evaluable": 239.0,
+   "evaluable": 240.0,
    "on_time": 121.0,
-   "open_overdue": 54.0,
+   "open_overdue": 55.0,
    "median_days_to_close": 6.0
   },
   {
@@ -10633,7 +10633,7 @@
    "duplicates": 2.0,
    "evaluable": 279.0,
    "on_time": 100.0,
-   "open_overdue": 132.0,
+   "open_overdue": 129.0,
    "median_days_to_close": 4.0
   },
   {
@@ -11952,8 +11952,8 @@
    "intake": 141.0,
    "duplicates": 0.0,
    "evaluable": 141.0,
-   "on_time": 112.0,
-   "open_overdue": 29.0,
+   "on_time": 115.0,
+   "open_overdue": 26.0,
    "median_days_to_close": 4.0
   },
   {
@@ -12372,7 +12372,7 @@
    "intake": 297.0,
    "duplicates": 33.0,
    "evaluable": 264.0,
-   "on_time": 220.0,
+   "on_time": 218.0,
    "open_overdue": 0.0,
    "median_days_to_close": 15.0
   },
@@ -12402,7 +12402,7 @@
    "intake": 859.0,
    "duplicates": 200.0,
    "evaluable": 659.0,
-   "on_time": 553.0,
+   "on_time": 552.0,
    "open_overdue": 0.0,
    "median_days_to_close": 14.0
   },
@@ -12582,9 +12582,9 @@
    "intake": 864.0,
    "duplicates": 183.0,
    "evaluable": 681.0,
-   "on_time": 648.0,
+   "on_time": 646.0,
    "open_overdue": 4.0,
-   "median_days_to_close": 15.0
+   "median_days_to_close": 16.0
   },
   {
    "sr_type": "TLGR-PRV",
@@ -12597,8 +12597,8 @@
    "intake": 962.0,
    "duplicates": 190.0,
    "evaluable": 772.0,
-   "on_time": 758.0,
-   "open_overdue": 6.0,
+   "on_time": 754.0,
+   "open_overdue": 5.0,
    "median_days_to_close": 14.0
   },
   {
@@ -12609,12 +12609,12 @@
    "year_month": "2026-08",
    "year": 2026,
    "month_number": 8,
-   "intake": 818.0,
-   "duplicates": 177.0,
-   "evaluable": 63.0,
-   "on_time": 62.0,
-   "open_overdue": 1.0,
-   "median_days_to_close": 9.0
+   "intake": 819.0,
+   "duplicates": 179.0,
+   "evaluable": 260.0,
+   "on_time": 257.0,
+   "open_overdue": 3.0,
+   "median_days_to_close": 11.5
   },
   {
    "sr_type": "TRASH-I",
@@ -13273,7 +13273,7 @@
    "duplicates": 20.0,
    "evaluable": 218.0,
    "on_time": 161.0,
-   "open_overdue": 2.0,
+   "open_overdue": 1.0,
    "median_days_to_close": 1.0
   },
   {
@@ -13918,8 +13918,8 @@
    "duplicates": 9.0,
    "evaluable": 175.0,
    "on_time": 32.0,
-   "open_overdue": 96.0,
-   "median_days_to_close": 28.0
+   "open_overdue": 95.0,
+   "median_days_to_close": 28.5
   },
   {
    "sr_type": "TRREPR",
@@ -13931,8 +13931,8 @@
    "month_number": 8,
    "intake": 139.0,
    "duplicates": 2.0,
-   "evaluable": 128.0,
-   "on_time": 85.0,
+   "evaluable": 137.0,
+   "on_time": 91.0,
    "open_overdue": 26.0,
    "median_days_to_close": 13.0
   },
@@ -14589,7 +14589,7 @@
    "year_month": "2026-08",
    "year": 2026,
    "month_number": 8,
-   "intake": 255.0,
+   "intake": 256.0,
    "duplicates": 1.0,
    "evaluable": 254.0,
    "on_time": 86.0,
@@ -15252,8 +15252,8 @@
    "intake": 401.0,
    "duplicates": 18.0,
    "evaluable": 381.0,
-   "on_time": 371.0,
-   "open_overdue": 1.0,
+   "on_time": 370.0,
+   "open_overdue": 0.0,
    "median_days_to_close": 0.0
   },
   {
@@ -15915,10 +15915,10 @@
   {
    "dept_name": "CIN WATER WORKS",
    "year": 2026,
-   "intake": 2310.0,
-   "evaluable": 2090.0,
-   "on_time": 2073.0,
-   "open_overdue": 3.0
+   "intake": 2313.0,
+   "evaluable": 2105.0,
+   "on_time": 2087.0,
+   "open_overdue": 4.0
   },
   {
    "dept_name": "CINC BUILDING DEPT",
@@ -15926,7 +15926,7 @@
    "intake": 13682.0,
    "evaluable": 11953.0,
    "on_time": 6870.0,
-   "open_overdue": 2025.0
+   "open_overdue": 2024.0
   },
   {
    "dept_name": "CINC BUILDING DEPT",
@@ -15934,23 +15934,23 @@
    "intake": 16201.0,
    "evaluable": 14302.0,
    "on_time": 10381.0,
-   "open_overdue": 2167.0
+   "open_overdue": 2163.0
   },
   {
    "dept_name": "CINC BUILDING DEPT",
    "year": 2025,
    "intake": 18203.0,
-   "evaluable": 14540.0,
-   "on_time": 10201.0,
-   "open_overdue": 2468.0
+   "evaluable": 14668.0,
+   "on_time": 10259.0,
+   "open_overdue": 2529.0
   },
   {
    "dept_name": "CINC BUILDING DEPT",
    "year": 2026,
-   "intake": 14538.0,
-   "evaluable": 6543.0,
-   "on_time": 5362.0,
-   "open_overdue": 541.0
+   "intake": 14540.0,
+   "evaluable": 6992.0,
+   "on_time": 5754.0,
+   "open_overdue": 576.0
   },
   {
    "dept_name": "CINC HEALTH DEPT",
@@ -15972,17 +15972,17 @@
    "dept_name": "CINC HEALTH DEPT",
    "year": 2025,
    "intake": 4513.0,
-   "evaluable": 4309.0,
-   "on_time": 3835.0,
-   "open_overdue": 181.0
+   "evaluable": 4325.0,
+   "on_time": 3845.0,
+   "open_overdue": 176.0
   },
   {
    "dept_name": "CINC HEALTH DEPT",
    "year": 2026,
    "intake": 3326.0,
-   "evaluable": 954.0,
-   "on_time": 895.0,
-   "open_overdue": 42.0
+   "evaluable": 1034.0,
+   "on_time": 969.0,
+   "open_overdue": 44.0
   },
   {
    "dept_name": "CINCINNATI RECREATION",
@@ -16038,15 +16038,15 @@
    "intake": 8634.0,
    "evaluable": 8601.0,
    "on_time": 7221.0,
-   "open_overdue": 13.0
+   "open_overdue": 12.0
   },
   {
    "dept_name": "CITY MANAGER'S OFFICE",
    "year": 2026,
    "intake": 6563.0,
-   "evaluable": 6511.0,
-   "on_time": 6204.0,
-   "open_overdue": 37.0
+   "evaluable": 6518.0,
+   "on_time": 6209.0,
+   "open_overdue": 35.0
   },
   {
    "dept_name": "COMMUNITY DEVELOPMENT",
@@ -16060,17 +16060,17 @@
    "dept_name": "COMMUNITY DEVELOPMENT",
    "year": 2025,
    "intake": 4676.0,
-   "evaluable": 4312.0,
+   "evaluable": 4310.0,
    "on_time": 640.0,
-   "open_overdue": 120.0
+   "open_overdue": 97.0
   },
   {
    "dept_name": "COMMUNITY DEVELOPMENT",
    "year": 2026,
    "intake": 401.0,
-   "evaluable": 369.0,
-   "on_time": 13.0,
-   "open_overdue": 255.0
+   "evaluable": 381.0,
+   "on_time": 22.0,
+   "open_overdue": 256.0
   },
   {
    "dept_name": "DEPT OF TRANS AND ENG",
@@ -16086,23 +16086,23 @@
    "intake": 7430.0,
    "evaluable": 7002.0,
    "on_time": 5616.0,
-   "open_overdue": 112.0
+   "open_overdue": 110.0
   },
   {
    "dept_name": "DEPT OF TRANS AND ENG",
    "year": 2025,
    "intake": 8919.0,
-   "evaluable": 7858.0,
-   "on_time": 6313.0,
-   "open_overdue": 175.0
+   "evaluable": 7875.0,
+   "on_time": 6319.0,
+   "open_overdue": 181.0
   },
   {
    "dept_name": "DEPT OF TRANS AND ENG",
    "year": 2026,
-   "intake": 7279.0,
-   "evaluable": 5425.0,
-   "on_time": 4783.0,
-   "open_overdue": 262.0
+   "intake": 7259.0,
+   "evaluable": 5539.0,
+   "on_time": 4898.0,
+   "open_overdue": 205.0
   },
   {
    "dept_name": "EMERGENCY COMMUNICATIONS",
@@ -16156,9 +16156,9 @@
    "dept_name": "FIRE DEPT",
    "year": 2026,
    "intake": 914.0,
-   "evaluable": 903.0,
-   "on_time": 227.0,
-   "open_overdue": 327.0
+   "evaluable": 905.0,
+   "on_time": 228.0,
+   "open_overdue": 325.0
   },
   {
    "dept_name": "LAW DEPARTMENT",
@@ -16219,10 +16219,10 @@
   {
    "dept_name": "METROPOLITAN SEWER",
    "year": 2026,
-   "intake": 213.0,
-   "evaluable": 211.0,
+   "intake": 215.0,
+   "evaluable": 214.0,
    "on_time": 108.0,
-   "open_overdue": 36.0
+   "open_overdue": 39.0
   },
   {
    "dept_name": "PARK DEPARTMENT",
@@ -16244,17 +16244,17 @@
    "dept_name": "PARK DEPARTMENT",
    "year": 2025,
    "intake": 2842.0,
-   "evaluable": 2610.0,
-   "on_time": 2315.0,
+   "evaluable": 2640.0,
+   "on_time": 2345.0,
    "open_overdue": 0.0
   },
   {
    "dept_name": "PARK DEPARTMENT",
    "year": 2026,
-   "intake": 3190.0,
-   "evaluable": 1658.0,
-   "on_time": 1619.0,
-   "open_overdue": 23.0
+   "intake": 3189.0,
+   "evaluable": 1808.0,
+   "on_time": 1758.0,
+   "open_overdue": 30.0
   },
   {
    "dept_name": "POLICE DEPARTMENT",
@@ -16284,9 +16284,9 @@
    "dept_name": "POLICE DEPARTMENT",
    "year": 2026,
    "intake": 1429.0,
-   "evaluable": 1341.0,
-   "on_time": 1051.0,
-   "open_overdue": 128.0
+   "evaluable": 1362.0,
+   "on_time": 1063.0,
+   "open_overdue": 121.0
   },
   {
    "dept_name": "PUBLIC SERVICES",
@@ -16310,15 +16310,15 @@
    "intake": 93736.0,
    "evaluable": 91303.0,
    "on_time": 51670.0,
-   "open_overdue": 82.0
+   "open_overdue": 79.0
   },
   {
    "dept_name": "PUBLIC SERVICES",
    "year": 2026,
-   "intake": 77801.0,
-   "evaluable": 74957.0,
-   "on_time": 54106.0,
-   "open_overdue": 4111.0
+   "intake": 77815.0,
+   "evaluable": 75295.0,
+   "on_time": 54267.0,
+   "open_overdue": 4042.0
   },
   {
    "dept_name": "REGIONAL COMPUTER CENTER",
@@ -16332,9 +16332,9 @@
    "dept_name": "REGIONAL COMPUTER CENTER",
    "year": 2026,
    "intake": 125.0,
-   "evaluable": 65.0,
-   "on_time": 5.0,
-   "open_overdue": 60.0
+   "evaluable": 74.0,
+   "on_time": 7.0,
+   "open_overdue": 67.0
   }
  ],
  "backlog_by_service": [
@@ -16342,67 +16342,67 @@
    "sr_type": "BLD-RES",
    "service_label": "BUILDING, RESIDENTIAL",
    "dept_name": "CINC BUILDING DEPT",
-   "overdue": 3389.0,
-   "within_90d": 439.0,
-   "d91_365": 1021.0,
-   "d1_2yr": 1291.0,
-   "over_2yr": 638.0,
-   "median_days_overdue": 420.0
+   "overdue": 3444.0,
+   "within_90d": 455.0,
+   "d91_365": 1026.0,
+   "d1_2yr": 1287.0,
+   "over_2yr": 676.0,
+   "median_days_overdue": 426.0
   },
   {
    "sr_type": "MTL-FRN",
    "service_label": "METAL FURNITURE, SPEC COLLECTN",
    "dept_name": "PUBLIC SERVICES",
-   "overdue": 1527.0,
-   "within_90d": 1175.0,
-   "d91_365": 352.0,
+   "overdue": 1520.0,
+   "within_90d": 1038.0,
+   "d91_365": 482.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 58.0
+   "median_days_overdue": 68.0
   },
   {
    "sr_type": "BLD_VACR",
    "service_label": "BUILDING, VACANT AND OPEN RES",
    "dept_name": "CINC BUILDING DEPT",
-   "overdue": 1030.0,
-   "within_90d": 111.0,
-   "d91_365": 332.0,
-   "d1_2yr": 347.0,
-   "over_2yr": 240.0,
-   "median_days_overdue": 413.5
+   "overdue": 1042.0,
+   "within_90d": 118.0,
+   "d91_365": 323.0,
+   "d1_2yr": 356.0,
+   "over_2yr": 245.0,
+   "median_days_overdue": 423.0
   },
   {
    "sr_type": "CMDVABDV",
    "service_label": "VEHICLE, OVERTIME PARKER",
    "dept_name": "PUBLIC SERVICES",
-   "overdue": 583.0,
-   "within_90d": 336.0,
-   "d91_365": 224.0,
-   "d1_2yr": 23.0,
+   "overdue": 508.0,
+   "within_90d": 323.0,
+   "d91_365": 167.0,
+   "d1_2yr": 18.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 76.0
+   "median_days_overdue": 60.5
   },
   {
    "sr_type": "CAG_PPDV",
    "service_label": "CAGIS PERMITS PLUS, DEV WORK",
    "dept_name": "REGIONAL COMPUTER CENTER",
-   "overdue": 439.0,
-   "within_90d": 22.0,
-   "d91_365": 85.0,
+   "overdue": 446.0,
+   "within_90d": 29.0,
+   "d91_365": 84.0,
    "d1_2yr": 202.0,
-   "over_2yr": 130.0,
-   "median_days_overdue": 661.0
+   "over_2yr": 131.0,
+   "median_days_overdue": 671.0
   },
   {
    "sr_type": "BLD-COM",
    "service_label": "BUILDING, COMMERCIAL CBHCODEC",
    "dept_name": "CINC BUILDING DEPT",
-   "overdue": 414.0,
-   "within_90d": 23.0,
-   "d91_365": 102.0,
-   "d1_2yr": 120.0,
-   "over_2yr": 169.0,
-   "median_days_overdue": 612.5
+   "overdue": 418.0,
+   "within_90d": 27.0,
+   "d91_365": 95.0,
+   "d1_2yr": 125.0,
+   "over_2yr": 171.0,
+   "median_days_overdue": 615.5
   },
   {
    "sr_type": "BLDFRESC",
@@ -16413,40 +16413,40 @@
    "d91_365": 0.0,
    "d1_2yr": 232.0,
    "over_2yr": 156.0,
-   "median_days_overdue": 680.5
+   "median_days_overdue": 690.5
   },
   {
    "sr_type": "ZONCCER",
    "service_label": "ZONING, CODE ENFORCEMENT RES",
    "dept_name": "CINC BUILDING DEPT",
-   "overdue": 370.0,
-   "within_90d": 70.0,
-   "d91_365": 154.0,
-   "d1_2yr": 122.0,
+   "overdue": 373.0,
+   "within_90d": 73.0,
+   "d91_365": 152.0,
+   "d1_2yr": 124.0,
    "over_2yr": 24.0,
-   "median_days_overdue": 266.5
+   "median_days_overdue": 272.0
   },
   {
    "sr_type": "BLDFRFAC",
    "service_label": "BUILDING, FACADE/FIRE ESCAPE",
    "dept_name": "CINC BUILDING DEPT",
-   "overdue": 327.0,
-   "within_90d": 98.0,
-   "d91_365": 87.0,
-   "d1_2yr": 67.0,
-   "over_2yr": 75.0,
-   "median_days_overdue": 288.0
+   "overdue": 332.0,
+   "within_90d": 99.0,
+   "d91_365": 90.0,
+   "d1_2yr": 66.0,
+   "over_2yr": 77.0,
+   "median_days_overdue": 265.0
   },
   {
    "sr_type": "TREEPR",
    "service_label": "TREE, DEAD ON PRIV PROP STNDRD",
    "dept_name": "CINC BUILDING DEPT",
-   "overdue": 260.0,
-   "within_90d": 72.0,
-   "d91_365": 77.0,
-   "d1_2yr": 63.0,
-   "over_2yr": 48.0,
-   "median_days_overdue": 334.5
+   "overdue": 269.0,
+   "within_90d": 74.0,
+   "d91_365": 78.0,
+   "d1_2yr": 67.0,
+   "over_2yr": 50.0,
+   "median_days_overdue": 341.0
   },
   {
    "sr_type": "DASTRAST",
@@ -16457,95 +16457,84 @@
    "d91_365": 0.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 42.0
+   "median_days_overdue": 52.0
   },
   {
    "sr_type": "SIDWLKH",
    "service_label": "SIDEWALK, REPAIR HAZ",
    "dept_name": "DEPT OF TRANS AND ENG",
-   "overdue": 222.0,
-   "within_90d": 9.0,
-   "d91_365": 69.0,
-   "d1_2yr": 144.0,
+   "overdue": 231.0,
+   "within_90d": 16.0,
+   "d91_365": 66.0,
+   "d1_2yr": 149.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 426.0
+   "median_days_overdue": 436.0
   },
   {
    "sr_type": "TRSHCITE",
    "service_label": "TRASH, CITATION ISSUED",
    "dept_name": "PUBLIC SERVICES",
    "overdue": 204.0,
-   "within_90d": 163.0,
-   "d91_365": 41.0,
+   "within_90d": 154.0,
+   "d91_365": 50.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 57.0
+   "median_days_overdue": 67.0
   },
   {
    "sr_type": "SVCCMPLT",
    "service_label": "SERVICE COMPLAINT, TRASH",
    "dept_name": "PUBLIC SERVICES",
-   "overdue": 195.0,
-   "within_90d": 189.0,
-   "d91_365": 6.0,
+   "overdue": 193.0,
+   "within_90d": 186.0,
+   "d91_365": 7.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 36.0
+   "median_days_overdue": 47.0
   },
   {
    "sr_type": "CRNCAN-D",
    "service_label": "CORNER CAN, DAMAGED",
    "dept_name": "PUBLIC SERVICES",
    "overdue": 169.0,
-   "within_90d": 119.0,
-   "d91_365": 50.0,
+   "within_90d": 104.0,
+   "d91_365": 65.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 72.0
-  },
-  {
-   "sr_type": "PAVMK",
-   "service_label": "PAVEMENT MARKINGS, FADED",
-   "dept_name": "PUBLIC SERVICES",
-   "overdue": 159.0,
-   "within_90d": 53.0,
-   "d91_365": 95.0,
-   "d1_2yr": 11.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 119.0
+   "median_days_overdue": 82.0
   },
   {
    "sr_type": "RCNEWLIC",
    "service_label": "RESTAURANT CONSULT, NEW LIC",
    "dept_name": "CINC HEALTH DEPT",
-   "overdue": 157.0,
-   "within_90d": 26.0,
-   "d91_365": 53.0,
-   "d1_2yr": 54.0,
-   "over_2yr": 24.0,
-   "median_days_overdue": 350.0
+   "overdue": 163.0,
+   "within_90d": 30.0,
+   "d91_365": 55.0,
+   "d1_2yr": 51.0,
+   "over_2yr": 27.0,
+   "median_days_overdue": 340.0
   },
   {
    "sr_type": "CFDANNUL",
    "service_label": "FIRE, ANNUAL INSPECTION REQ",
    "dept_name": "FIRE DEPT",
    "overdue": 156.0,
-   "within_90d": 103.0,
-   "d91_365": 52.0,
-   "d1_2yr": 1.0,
+   "within_90d": 96.0,
+   "d91_365": 58.0,
+   "d1_2yr": 2.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 65.0
+   "median_days_overdue": 75.0
   },
   {
-   "sr_type": "PRKNGYRD",
-   "service_label": "PARKING, GRASS FRONT YD RES",
-   "dept_name": "CINC BUILDING DEPT",
-   "overdue": 132.0,
-   "within_90d": 0.0,
-   "d91_365": 0.0,
-   "d1_2yr": 32.0,
-   "over_2yr": 100.0,
-   "median_days_overdue": 871.0
+   "sr_type": "PAVMK",
+   "service_label": "PAVEMENT MARKINGS, FADED",
+   "dept_name": "PUBLIC SERVICES",
+   "overdue": 152.0,
+   "within_90d": 50.0,
+   "d91_365": 88.0,
+   "d1_2yr": 14.0,
+   "over_2yr": 0.0,
+   "median_days_overdue": 128.5
   },
   {
    "sr_type": "RWFRNTRT",
@@ -16556,73 +16545,62 @@
    "d91_365": 1.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 37.0
+   "median_days_overdue": 47.0
   },
   {
-   "sr_type": "STRRPRG",
-   "service_label": "GENERAL REPAIR, STREET",
-   "dept_name": "PUBLIC SERVICES",
-   "overdue": 127.0,
-   "within_90d": 39.0,
-   "d91_365": 88.0,
-   "d1_2yr": 0.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 118.0
+   "sr_type": "PRKNGYRD",
+   "service_label": "PARKING, GRASS FRONT YD RES",
+   "dept_name": "CINC BUILDING DEPT",
+   "overdue": 130.0,
+   "within_90d": 0.0,
+   "d91_365": 0.0,
+   "d1_2yr": 27.0,
+   "over_2yr": 103.0,
+   "median_days_overdue": 881.0
   },
   {
    "sr_type": "TRREPR",
    "service_label": "TRASH CART, REPAIR",
    "dept_name": "PUBLIC SERVICES",
-   "overdue": 123.0,
-   "within_90d": 123.0,
+   "overdue": 122.0,
+   "within_90d": 122.0,
    "d91_365": 0.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 32.0
-  },
-  {
-   "sr_type": "BLD_VACC",
-   "service_label": "BUILDING, VACANT AND OPEN COM",
-   "dept_name": "CINC BUILDING DEPT",
-   "overdue": 111.0,
-   "within_90d": 8.0,
-   "d91_365": 36.0,
-   "d1_2yr": 27.0,
-   "over_2yr": 40.0,
-   "median_days_overdue": 533.0
-  },
-  {
-   "sr_type": "GRFTRPRV",
-   "service_label": "GRAFFITI REMOVAL, PRIVATE PROP",
-   "dept_name": "CINC BUILDING DEPT",
-   "overdue": 104.0,
-   "within_90d": 15.0,
-   "d91_365": 54.0,
-   "d1_2yr": 35.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 309.5
-  },
-  {
-   "sr_type": "HOMEOWNI",
-   "service_label": "HOME OWNERSHIP SURVEY, INITIAL",
-   "dept_name": "CINC BUILDING DEPT",
-   "overdue": 104.0,
-   "within_90d": 7.0,
-   "d91_365": 44.0,
-   "d1_2yr": 45.0,
-   "over_2yr": 8.0,
-   "median_days_overdue": 373.0
+   "median_days_overdue": 42.0
   },
   {
    "sr_type": "CRNCNRQ",
    "service_label": "CORNER CAN, REQUEST NEW",
    "dept_name": "PUBLIC SERVICES",
-   "overdue": 103.0,
-   "within_90d": 51.0,
-   "d91_365": 52.0,
+   "overdue": 119.0,
+   "within_90d": 65.0,
+   "d91_365": 54.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 91.0
+   "median_days_overdue": 79.0
+  },
+  {
+   "sr_type": "BLD_VACC",
+   "service_label": "BUILDING, VACANT AND OPEN COM",
+   "dept_name": "CINC BUILDING DEPT",
+   "overdue": 112.0,
+   "within_90d": 9.0,
+   "d91_365": 36.0,
+   "d1_2yr": 26.0,
+   "over_2yr": 41.0,
+   "median_days_overdue": 542.5
+  },
+  {
+   "sr_type": "HOMEOWNI",
+   "service_label": "HOME OWNERSHIP SURVEY, INITIAL",
+   "dept_name": "CINC BUILDING DEPT",
+   "overdue": 105.0,
+   "within_90d": 3.0,
+   "d91_365": 49.0,
+   "d1_2yr": 43.0,
+   "over_2yr": 10.0,
+   "median_days_overdue": 383.0
   },
   {
    "sr_type": "CITYCONI",
@@ -16633,73 +16611,95 @@
    "d91_365": 1.0,
    "d1_2yr": 4.0,
    "over_2yr": 96.0,
-   "median_days_overdue": 1113.0
+   "median_days_overdue": 1123.0
+  },
+  {
+   "sr_type": "STRRPRG",
+   "service_label": "GENERAL REPAIR, STREET",
+   "dept_name": "PUBLIC SERVICES",
+   "overdue": 101.0,
+   "within_90d": 35.0,
+   "d91_365": 66.0,
+   "d1_2yr": 0.0,
+   "over_2yr": 0.0,
+   "median_days_overdue": 118.0
+  },
+  {
+   "sr_type": "GRFTRPRV",
+   "service_label": "GRAFFITI REMOVAL, PRIVATE PROP",
+   "dept_name": "CINC BUILDING DEPT",
+   "overdue": 101.0,
+   "within_90d": 15.0,
+   "d91_365": 48.0,
+   "d1_2yr": 38.0,
+   "over_2yr": 0.0,
+   "median_days_overdue": 324.0
   },
   {
    "sr_type": "ZONCCE",
    "service_label": "ZONING, CODE ENFORCEMENT COM",
    "dept_name": "CINC BUILDING DEPT",
-   "overdue": 94.0,
+   "overdue": 95.0,
    "within_90d": 16.0,
-   "d91_365": 52.0,
+   "d91_365": 53.0,
    "d1_2yr": 22.0,
    "over_2yr": 4.0,
-   "median_days_overdue": 245.0
+   "median_days_overdue": 253.0
   },
   {
    "sr_type": "PJUNKTOW",
    "service_label": "VEHICLE, REQUEST TO TOW",
    "dept_name": "POLICE DEPARTMENT",
-   "overdue": 89.0,
-   "within_90d": 15.0,
+   "overdue": 94.0,
+   "within_90d": 20.0,
    "d91_365": 32.0,
    "d1_2yr": 42.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 318.0
+   "median_days_overdue": 311.0
+  },
+  {
+   "sr_type": "TRREPR65",
+   "service_label": "TRASH CART, REPAIR 65 GALLON",
+   "dept_name": "PUBLIC SERVICES",
+   "overdue": 83.0,
+   "within_90d": 76.0,
+   "d91_365": 7.0,
+   "d1_2yr": 0.0,
+   "over_2yr": 0.0,
+   "median_days_overdue": 56.0
   },
   {
    "sr_type": "PLCJUNKV",
    "service_label": "VEHICLE, ROW JUNK/ABAN",
    "dept_name": "POLICE DEPARTMENT",
-   "overdue": 86.0,
-   "within_90d": 55.0,
-   "d91_365": 24.0,
+   "overdue": 82.0,
+   "within_90d": 43.0,
+   "d91_365": 32.0,
    "d1_2yr": 7.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 79.0
+   "median_days_overdue": 89.0
+  },
+  {
+   "sr_type": "SGN_TNW",
+   "service_label": "STREET SIGN, NEW/CHANGE",
+   "dept_name": "DEPT OF TRANS AND ENG",
+   "overdue": 77.0,
+   "within_90d": 41.0,
+   "d91_365": 29.0,
+   "d1_2yr": 7.0,
+   "over_2yr": 0.0,
+   "median_days_overdue": 82.0
   },
   {
    "sr_type": "MSSNGPRP",
    "service_label": "TRASH CART, COLLECTED BY CREW",
    "dept_name": "PUBLIC SERVICES",
    "overdue": 77.0,
-   "within_90d": 76.0,
-   "d91_365": 1.0,
+   "within_90d": 61.0,
+   "d91_365": 16.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 67.0
-  },
-  {
-   "sr_type": "TRREPR65",
-   "service_label": "TRASH CART, REPAIR 65 GALLON",
-   "dept_name": "PUBLIC SERVICES",
-   "overdue": 76.0,
-   "within_90d": 73.0,
-   "d91_365": 3.0,
-   "d1_2yr": 0.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 52.0
-  },
-  {
-   "sr_type": "BLD_USER",
-   "service_label": "BUILDING, ILLEGAL USE RES PROP",
-   "dept_name": "CINC BUILDING DEPT",
-   "overdue": 76.0,
-   "within_90d": 5.0,
-   "d91_365": 13.0,
-   "d1_2yr": 27.0,
-   "over_2yr": 31.0,
-   "median_days_overdue": 661.0
+   "median_days_overdue": 77.0
   },
   {
    "sr_type": "DNS-IN",
@@ -16708,20 +16708,20 @@
    "overdue": 76.0,
    "within_90d": 0.0,
    "d91_365": 0.0,
-   "d1_2yr": 10.0,
-   "over_2yr": 66.0,
-   "median_days_overdue": 958.0
+   "d1_2yr": 9.0,
+   "over_2yr": 67.0,
+   "median_days_overdue": 968.0
   },
   {
-   "sr_type": "SGN_TNW",
-   "service_label": "STREET SIGN, NEW/CHANGE",
-   "dept_name": "DEPT OF TRANS AND ENG",
-   "overdue": 75.0,
-   "within_90d": 42.0,
-   "d91_365": 26.0,
-   "d1_2yr": 7.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 81.0
+   "sr_type": "BLD_USER",
+   "service_label": "BUILDING, ILLEGAL USE RES PROP",
+   "dept_name": "CINC BUILDING DEPT",
+   "overdue": 76.0,
+   "within_90d": 5.0,
+   "d91_365": 13.0,
+   "d1_2yr": 26.0,
+   "over_2yr": 32.0,
+   "median_days_overdue": 671.0
   },
   {
    "sr_type": "DBRFLDST",
@@ -16732,106 +16732,106 @@
    "d91_365": 0.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 16.0
-  },
-  {
-   "sr_type": "MSSNGSTR",
-   "service_label": "SIGN, STREET SIGN NAME ISSUES",
-   "dept_name": "PUBLIC SERVICES",
-   "overdue": 64.0,
-   "within_90d": 52.0,
-   "d91_365": 12.0,
-   "d1_2yr": 0.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 59.0
+   "median_days_overdue": 26.0
   },
   {
    "sr_type": "CFDHAZVN",
    "service_label": "FIRE, HAZARDS AND VIOLATIONS",
    "dept_name": "FIRE DEPT",
-   "overdue": 64.0,
-   "within_90d": 29.0,
-   "d91_365": 35.0,
+   "overdue": 62.0,
+   "within_90d": 26.0,
+   "d91_365": 36.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 101.5
+   "median_days_overdue": 111.5
+  },
+  {
+   "sr_type": "MSSNGSTR",
+   "service_label": "SIGN, STREET SIGN NAME ISSUES",
+   "dept_name": "PUBLIC SERVICES",
+   "overdue": 59.0,
+   "within_90d": 42.0,
+   "d91_365": 17.0,
+   "d1_2yr": 0.0,
+   "over_2yr": 0.0,
+   "median_days_overdue": 69.0
   },
   {
    "sr_type": "TRSHREMV",
    "service_label": "TRASH CART, REMOVE",
    "dept_name": "PUBLIC SERVICES",
-   "overdue": 61.0,
-   "within_90d": 58.0,
-   "d91_365": 3.0,
+   "overdue": 59.0,
+   "within_90d": 47.0,
+   "d91_365": 12.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 56.0
+   "median_days_overdue": 67.0
   },
   {
    "sr_type": "CURBREP",
    "service_label": "CURBS, REPAIR",
    "dept_name": "PUBLIC SERVICES",
-   "overdue": 56.0,
+   "overdue": 57.0,
    "within_90d": 41.0,
-   "d91_365": 15.0,
+   "d91_365": 16.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 57.0
+   "median_days_overdue": 50.0
   },
   {
    "sr_type": "TLGR-PRV",
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "dept_name": "CINC BUILDING DEPT",
-   "overdue": 53.0,
+   "overdue": 54.0,
    "within_90d": 25.0,
-   "d91_365": 9.0,
-   "d1_2yr": 6.0,
-   "over_2yr": 13.0,
-   "median_days_overdue": 99.0
+   "d91_365": 10.0,
+   "d1_2yr": 5.0,
+   "over_2yr": 14.0,
+   "median_days_overdue": 108.5
   },
   {
    "sr_type": "TRSHRQNS",
    "service_label": "TRASH, REQUEST FOR NEW SERVICE",
    "dept_name": "PUBLIC SERVICES",
    "overdue": 53.0,
-   "within_90d": 39.0,
-   "d91_365": 14.0,
+   "within_90d": 34.0,
+   "d91_365": 19.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 74.0
+   "median_days_overdue": 84.0
   },
   {
    "sr_type": "FIRESPCL",
    "service_label": "FIRE, SPECIAL FIRE INSPECTION",
    "dept_name": "FIRE DEPT",
    "overdue": 53.0,
-   "within_90d": 23.0,
-   "d91_365": 26.0,
+   "within_90d": 18.0,
+   "d91_365": 31.0,
    "d1_2yr": 4.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 100.0
+   "median_days_overdue": 110.0
   },
   {
    "sr_type": "TRREPR95",
    "service_label": "TRASH CART, REPAIR 95 GALLON",
    "dept_name": "PUBLIC SERVICES",
-   "overdue": 49.0,
-   "within_90d": 49.0,
-   "d91_365": 0.0,
+   "overdue": 52.0,
+   "within_90d": 48.0,
+   "d91_365": 4.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 49.0
+   "median_days_overdue": 58.0
   },
   {
-   "sr_type": "RWTRDMPN",
-   "service_label": "RIGHT OF WAY, TIRE DUMPING",
+   "sr_type": "TLGR-PS",
+   "service_label": "TALL GRASS/WEEDS, CITY MAINT",
    "dept_name": "PUBLIC SERVICES",
-   "overdue": 44.0,
-   "within_90d": 44.0,
-   "d91_365": 0.0,
-   "d1_2yr": 0.0,
+   "overdue": 50.0,
+   "within_90d": 40.0,
+   "d91_365": 9.0,
+   "d1_2yr": 1.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 35.0
+   "median_days_overdue": 21.0
   },
   {
    "sr_type": "DFLTPRKG",
@@ -16842,18 +16842,40 @@
    "d91_365": 34.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 248.0
+   "median_days_overdue": 258.0
   },
   {
-   "sr_type": "CNTRCTR",
-   "service_label": "CONTRACTOR, COMPLAINT",
-   "dept_name": "DEPT OF TRANS AND ENG",
-   "overdue": 42.0,
-   "within_90d": 9.0,
-   "d91_365": 29.0,
-   "d1_2yr": 4.0,
+   "sr_type": "RWTRDMPN",
+   "service_label": "RIGHT OF WAY, TIRE DUMPING",
+   "dept_name": "PUBLIC SERVICES",
+   "overdue": 44.0,
+   "within_90d": 44.0,
+   "d91_365": 0.0,
+   "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 123.5
+   "median_days_overdue": 45.0
+  },
+  {
+   "sr_type": "ILLHOMEC",
+   "service_label": "HOMELESS ENCAMPMENT",
+   "dept_name": "CITY MANAGER'S OFFICE",
+   "overdue": 42.0,
+   "within_90d": 25.0,
+   "d91_365": 17.0,
+   "d1_2yr": 0.0,
+   "over_2yr": 0.0,
+   "median_days_overdue": 66.0
+  },
+  {
+   "sr_type": "GRCRYCNC",
+   "service_label": "FOOD OPERATION, REQUEST GEN",
+   "dept_name": "CINC HEALTH DEPT",
+   "overdue": 41.0,
+   "within_90d": 4.0,
+   "d91_365": 32.0,
+   "d1_2yr": 5.0,
+   "over_2yr": 0.0,
+   "median_days_overdue": 224.0
   },
   {
    "sr_type": "STERMURU",
@@ -16861,21 +16883,21 @@
    "dept_name": "TREASURY DEPARTMENT",
    "overdue": 40.0,
    "within_90d": 0.0,
-   "d91_365": 8.0,
+   "d91_365": 7.0,
    "d1_2yr": 11.0,
-   "over_2yr": 21.0,
-   "median_days_overdue": 780.5
+   "over_2yr": 22.0,
+   "median_days_overdue": 790.5
   },
   {
-   "sr_type": "ILLHOMEC",
-   "service_label": "HOMELESS ENCAMPMENT",
-   "dept_name": "CITY MANAGER'S OFFICE",
-   "overdue": 39.0,
-   "within_90d": 25.0,
-   "d91_365": 14.0,
+   "sr_type": "DFLTDOTE",
+   "service_label": "DEFAULT, DOTE",
+   "dept_name": "DEPT OF TRANS AND ENG",
+   "overdue": 40.0,
+   "within_90d": 11.0,
+   "d91_365": 29.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 63.0
+   "median_days_overdue": 112.0
   },
   {
    "sr_type": "AMNESTYL",
@@ -16886,84 +16908,62 @@
    "d91_365": 2.0,
    "d1_2yr": 4.0,
    "over_2yr": 32.0,
-   "median_days_overdue": 1046.0
-  },
-  {
-   "sr_type": "DFLTDOTE",
-   "service_label": "DEFAULT, DOTE",
-   "dept_name": "DEPT OF TRANS AND ENG",
-   "overdue": 39.0,
-   "within_90d": 13.0,
-   "d91_365": 26.0,
-   "d1_2yr": 0.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 104.0
-  },
-  {
-   "sr_type": "RSTRTN,T",
-   "service_label": "CONTRUCT/CONTRACT COMPLNT ROW",
-   "dept_name": "DEPT OF TRANS AND ENG",
-   "overdue": 39.0,
-   "within_90d": 12.0,
-   "d91_365": 27.0,
-   "d1_2yr": 0.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 108.0
-  },
-  {
-   "sr_type": "GRCRYCNC",
-   "service_label": "FOOD OPERATION, REQUEST GEN",
-   "dept_name": "CINC HEALTH DEPT",
-   "overdue": 39.0,
-   "within_90d": 3.0,
-   "d91_365": 32.0,
-   "d1_2yr": 4.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 241.0
-  },
-  {
-   "sr_type": "MOLD",
-   "service_label": "MOLD, BUILDING OR APARTMENT",
-   "dept_name": "CINC HEALTH DEPT",
-   "overdue": 39.0,
-   "within_90d": 12.0,
-   "d91_365": 24.0,
-   "d1_2yr": 2.0,
-   "over_2yr": 1.0,
-   "median_days_overdue": 193.0
-  },
-  {
-   "sr_type": "TIRES",
-   "service_label": "TIRES, SPECIAL COLLECTION",
-   "dept_name": "PUBLIC SERVICES",
-   "overdue": 37.0,
-   "within_90d": 37.0,
-   "d91_365": 0.0,
-   "d1_2yr": 0.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 13.0
-  },
-  {
-   "sr_type": "TLGR-PS",
-   "service_label": "TALL GRASS/WEEDS, CITY MAINT",
-   "dept_name": "PUBLIC SERVICES",
-   "overdue": 35.0,
-   "within_90d": 29.0,
-   "d91_365": 6.0,
-   "d1_2yr": 0.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 34.0
+   "median_days_overdue": 1056.0
   },
   {
    "sr_type": "LITR-PRV",
    "service_label": "LITTER, PRIVATE PROPERTY",
    "dept_name": "CINC BUILDING DEPT",
-   "overdue": 34.0,
-   "within_90d": 8.0,
+   "overdue": 35.0,
+   "within_90d": 9.0,
    "d91_365": 9.0,
-   "d1_2yr": 6.0,
-   "over_2yr": 11.0,
-   "median_days_overdue": 427.5
+   "d1_2yr": 5.0,
+   "over_2yr": 12.0,
+   "median_days_overdue": 310.0
+  },
+  {
+   "sr_type": "DFLTMSD",
+   "service_label": "DEFAULT, MSD",
+   "dept_name": "METROPOLITAN SEWER",
+   "overdue": 34.0,
+   "within_90d": 34.0,
+   "d91_365": 0.0,
+   "d1_2yr": 0.0,
+   "over_2yr": 0.0,
+   "median_days_overdue": 29.0
+  },
+  {
+   "sr_type": "CNTRCTR",
+   "service_label": "CONTRACTOR, COMPLAINT",
+   "dept_name": "DEPT OF TRANS AND ENG",
+   "overdue": 34.0,
+   "within_90d": 7.0,
+   "d91_365": 24.0,
+   "d1_2yr": 3.0,
+   "over_2yr": 0.0,
+   "median_days_overdue": 134.0
+  },
+  {
+   "sr_type": "TIRES",
+   "service_label": "TIRES, SPECIAL COLLECTION",
+   "dept_name": "PUBLIC SERVICES",
+   "overdue": 34.0,
+   "within_90d": 34.0,
+   "d91_365": 0.0,
+   "d1_2yr": 0.0,
+   "over_2yr": 0.0,
+   "median_days_overdue": 23.5
+  },
+  {
+   "sr_type": "GUARDR",
+   "service_label": "GUARDRAIL, REPAIR",
+   "dept_name": "PUBLIC SERVICES",
+   "overdue": 33.0,
+   "within_90d": 7.0,
+   "d91_365": 25.0,
+   "d1_2yr": 1.0,
+   "over_2yr": 0.0,
+   "median_days_overdue": 135.0
   },
   {
    "sr_type": "BLDFACAD",
@@ -16974,40 +16974,18 @@
    "d91_365": 0.0,
    "d1_2yr": 12.0,
    "over_2yr": 21.0,
-   "median_days_overdue": 883.0
+   "median_days_overdue": 893.0
   },
   {
-   "sr_type": "DFLTMSD",
-   "service_label": "DEFAULT, MSD",
-   "dept_name": "METROPOLITAN SEWER",
-   "overdue": 31.0,
-   "within_90d": 31.0,
-   "d91_365": 0.0,
-   "d1_2yr": 0.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 20.0
-  },
-  {
-   "sr_type": "GUARDR",
-   "service_label": "GUARDRAIL, REPAIR",
-   "dept_name": "PUBLIC SERVICES",
-   "overdue": 31.0,
-   "within_90d": 4.0,
-   "d91_365": 26.0,
-   "d1_2yr": 1.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 133.0
-  },
-  {
-   "sr_type": "DFLTPLC",
-   "service_label": "DEFAULT, POLICE",
-   "dept_name": "POLICE DEPARTMENT",
-   "overdue": 30.0,
-   "within_90d": 17.0,
-   "d91_365": 9.0,
-   "d1_2yr": 4.0,
-   "over_2yr": 0.0,
-   "median_days_overdue": 75.0
+   "sr_type": "MOLD",
+   "service_label": "MOLD, BUILDING OR APARTMENT",
+   "dept_name": "CINC HEALTH DEPT",
+   "overdue": 32.0,
+   "within_90d": 11.0,
+   "d91_365": 18.0,
+   "d1_2yr": 2.0,
+   "over_2yr": 1.0,
+   "median_days_overdue": 203.0
   },
   {
    "sr_type": "HDNGCPLT",
@@ -17018,18 +16996,18 @@
    "d91_365": 2.0,
    "d1_2yr": 5.0,
    "over_2yr": 21.0,
-   "median_days_overdue": 747.0
+   "median_days_overdue": 757.0
   },
   {
    "sr_type": "FIREEDUR",
    "service_label": "FIRE, EDUCATION REQUEST",
    "dept_name": "FIRE DEPT",
-   "overdue": 26.0,
-   "within_90d": 17.0,
-   "d91_365": 9.0,
+   "overdue": 27.0,
+   "within_90d": 16.0,
+   "d91_365": 11.0,
    "d1_2yr": 0.0,
    "over_2yr": 0.0,
-   "median_days_overdue": 68.5
+   "median_days_overdue": 68.0
   }
  ],
  "neighborhood_stable_services": [
@@ -17039,8 +17017,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 1181.0,
-   "evaluable": 732.0,
-   "on_time": 410.0,
+   "evaluable": 749.0,
+   "on_time": 415.0,
    "median_days_to_close": 70.0
   },
   {
@@ -17049,9 +17027,9 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 1008.0,
-   "evaluable": 855.0,
-   "on_time": 700.0,
-   "median_days_to_close": 11.5
+   "evaluable": 860.0,
+   "on_time": 702.0,
+   "median_days_to_close": 12.0
   },
   {
    "neighborhood": "AVONDALE",
@@ -17069,8 +17047,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 767.0,
-   "evaluable": 593.0,
-   "on_time": 491.0,
+   "evaluable": 598.0,
+   "on_time": 496.0,
    "median_days_to_close": 14.0
   },
   {
@@ -17079,8 +17057,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 320.0,
-   "evaluable": 206.0,
-   "on_time": 124.0,
+   "evaluable": 211.0,
+   "on_time": 126.0,
    "median_days_to_close": 52.0
   },
   {
@@ -17109,8 +17087,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 358.0,
-   "evaluable": 253.0,
-   "on_time": 226.0,
+   "evaluable": 256.0,
+   "on_time": 229.0,
    "median_days_to_close": 7.0
   },
   {
@@ -17169,8 +17147,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 176.0,
-   "evaluable": 123.0,
-   "on_time": 102.0,
+   "evaluable": 124.0,
+   "on_time": 103.0,
    "median_days_to_close": 15.0
   },
   {
@@ -17189,8 +17167,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 221.0,
-   "evaluable": 193.0,
-   "on_time": 165.0,
+   "evaluable": 194.0,
+   "on_time": 166.0,
    "median_days_to_close": 8.0
   },
   {
@@ -17209,8 +17187,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 186.0,
-   "evaluable": 146.0,
-   "on_time": 126.0,
+   "evaluable": 151.0,
+   "on_time": 131.0,
    "median_days_to_close": 8.5
   },
   {
@@ -17219,9 +17197,9 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 498.0,
-   "evaluable": 322.0,
-   "on_time": 161.0,
-   "median_days_to_close": 50.0
+   "evaluable": 328.0,
+   "on_time": 163.0,
+   "median_days_to_close": 51.0
   },
   {
    "neighborhood": "COLLEGE HILL",
@@ -17229,8 +17207,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 380.0,
-   "evaluable": 315.0,
-   "on_time": 281.0,
+   "evaluable": 320.0,
+   "on_time": 286.0,
    "median_days_to_close": 5.0
   },
   {
@@ -17249,8 +17227,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 558.0,
-   "evaluable": 473.0,
-   "on_time": 435.0,
+   "evaluable": 475.0,
+   "on_time": 437.0,
    "median_days_to_close": 14.0
   },
   {
@@ -17269,8 +17247,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 124.0,
-   "evaluable": 102.0,
-   "on_time": 90.0,
+   "evaluable": 103.0,
+   "on_time": 91.0,
    "median_days_to_close": 5.5
   },
   {
@@ -17289,9 +17267,9 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 747.0,
-   "evaluable": 491.0,
-   "on_time": 243.0,
-   "median_days_to_close": 40.0
+   "evaluable": 500.0,
+   "on_time": 247.0,
+   "median_days_to_close": 41.0
   },
   {
    "neighborhood": "CUF",
@@ -17299,8 +17277,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 1039.0,
-   "evaluable": 902.0,
-   "on_time": 823.0,
+   "evaluable": 923.0,
+   "on_time": 844.0,
    "median_days_to_close": 6.0
   },
   {
@@ -17319,8 +17297,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 667.0,
-   "evaluable": 556.0,
-   "on_time": 470.0,
+   "evaluable": 573.0,
+   "on_time": 486.0,
    "median_days_to_close": 16.0
   },
   {
@@ -17329,8 +17307,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 199.0,
-   "evaluable": 170.0,
-   "on_time": 168.0,
+   "evaluable": 171.0,
+   "on_time": 169.0,
    "median_days_to_close": 4.0
   },
   {
@@ -17359,8 +17337,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 160.0,
-   "evaluable": 111.0,
-   "on_time": 90.0,
+   "evaluable": 112.0,
+   "on_time": 91.0,
    "median_days_to_close": 11.5
   },
   {
@@ -17368,9 +17346,9 @@
    "sr_type": "BLD-RES",
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
-   "intake": 1389.0,
-   "evaluable": 950.0,
-   "on_time": 445.0,
+   "intake": 1390.0,
+   "evaluable": 955.0,
+   "on_time": 447.0,
    "median_days_to_close": 124.0
   },
   {
@@ -17379,8 +17357,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 1778.0,
-   "evaluable": 1410.0,
-   "on_time": 1114.0,
+   "evaluable": 1420.0,
+   "on_time": 1124.0,
    "median_days_to_close": 9.0
   },
   {
@@ -17399,8 +17377,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 2047.0,
-   "evaluable": 1515.0,
-   "on_time": 1228.0,
+   "evaluable": 1540.0,
+   "on_time": 1252.0,
    "median_days_to_close": 15.0
   },
   {
@@ -17409,7 +17387,7 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 208.0,
-   "evaluable": 120.0,
+   "evaluable": 121.0,
    "on_time": 85.0,
    "median_days_to_close": 39.5
   },
@@ -17429,8 +17407,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 167.0,
-   "evaluable": 143.0,
-   "on_time": 130.0,
+   "evaluable": 145.0,
+   "on_time": 132.0,
    "median_days_to_close": 10.5
   },
   {
@@ -17441,7 +17419,7 @@
    "intake": 245.0,
    "evaluable": 157.0,
    "on_time": 114.0,
-   "median_days_to_close": 27.0
+   "median_days_to_close": 28.0
   },
   {
    "neighborhood": "EAST WESTWOOD",
@@ -17449,7 +17427,7 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 276.0,
-   "evaluable": 233.0,
+   "evaluable": 234.0,
    "on_time": 186.0,
    "median_days_to_close": 15.0
   },
@@ -17469,8 +17447,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 165.0,
-   "evaluable": 121.0,
-   "on_time": 104.0,
+   "evaluable": 123.0,
+   "on_time": 106.0,
    "median_days_to_close": 14.0
   },
   {
@@ -17479,8 +17457,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 555.0,
-   "evaluable": 366.0,
-   "on_time": 168.0,
+   "evaluable": 370.0,
+   "on_time": 171.0,
    "median_days_to_close": 134.5
   },
   {
@@ -17489,8 +17467,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 446.0,
-   "evaluable": 395.0,
-   "on_time": 346.0,
+   "evaluable": 400.0,
+   "on_time": 350.0,
    "median_days_to_close": 8.0
   },
   {
@@ -17509,8 +17487,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 681.0,
-   "evaluable": 519.0,
-   "on_time": 424.0,
+   "evaluable": 530.0,
+   "on_time": 435.0,
    "median_days_to_close": 15.0
   },
   {
@@ -17519,9 +17497,9 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 586.0,
-   "evaluable": 436.0,
-   "on_time": 234.0,
-   "median_days_to_close": 118.5
+   "evaluable": 437.0,
+   "on_time": 235.0,
+   "median_days_to_close": 118.0
   },
   {
    "neighborhood": "HARTWELL",
@@ -17529,8 +17507,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 366.0,
-   "evaluable": 221.0,
-   "on_time": 187.0,
+   "evaluable": 225.0,
+   "on_time": 190.0,
    "median_days_to_close": 3.5
   },
   {
@@ -17559,8 +17537,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 287.0,
-   "evaluable": 158.0,
-   "on_time": 103.0,
+   "evaluable": 162.0,
+   "on_time": 107.0,
    "median_days_to_close": 46.5
   },
   {
@@ -17589,8 +17567,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 184.0,
-   "evaluable": 156.0,
-   "on_time": 139.0,
+   "evaluable": 162.0,
+   "on_time": 145.0,
    "median_days_to_close": 9.0
   },
   {
@@ -17599,8 +17577,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 174.0,
-   "evaluable": 119.0,
-   "on_time": 71.0,
+   "evaluable": 124.0,
+   "on_time": 74.0,
    "median_days_to_close": 89.5
   },
   {
@@ -17619,8 +17597,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 158.0,
-   "evaluable": 106.0,
-   "on_time": 97.0,
+   "evaluable": 109.0,
+   "on_time": 100.0,
    "median_days_to_close": 14.0
   },
   {
@@ -17659,8 +17637,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 247.0,
-   "evaluable": 221.0,
-   "on_time": 191.0,
+   "evaluable": 222.0,
+   "on_time": 192.0,
    "median_days_to_close": 8.0
   },
   {
@@ -17679,8 +17657,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 471.0,
-   "evaluable": 357.0,
-   "on_time": 313.0,
+   "evaluable": 363.0,
+   "on_time": 319.0,
    "median_days_to_close": 14.0
   },
   {
@@ -17699,7 +17677,7 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 427.0,
-   "evaluable": 300.0,
+   "evaluable": 301.0,
    "on_time": 224.0,
    "median_days_to_close": 111.0
   },
@@ -17709,8 +17687,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 271.0,
-   "evaluable": 226.0,
-   "on_time": 196.0,
+   "evaluable": 228.0,
+   "on_time": 198.0,
    "median_days_to_close": 6.0
   },
   {
@@ -17730,7 +17708,7 @@
    "committed_days": 45,
    "intake": 206.0,
    "evaluable": 175.0,
-   "on_time": 160.0,
+   "on_time": 159.0,
    "median_days_to_close": 14.0
   },
   {
@@ -17739,8 +17717,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 333.0,
-   "evaluable": 237.0,
-   "on_time": 134.0,
+   "evaluable": 239.0,
+   "on_time": 135.0,
    "median_days_to_close": 52.0
   },
   {
@@ -17749,8 +17727,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 301.0,
-   "evaluable": 243.0,
-   "on_time": 199.0,
+   "evaluable": 244.0,
+   "on_time": 200.0,
    "median_days_to_close": 10.5
   },
   {
@@ -17768,9 +17746,9 @@
    "sr_type": "TLGR-PRV",
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
-   "intake": 301.0,
-   "evaluable": 227.0,
-   "on_time": 174.0,
+   "intake": 302.0,
+   "evaluable": 229.0,
+   "on_time": 176.0,
    "median_days_to_close": 16.0
   },
   {
@@ -17789,9 +17767,9 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 309.0,
-   "evaluable": 178.0,
-   "on_time": 131.0,
-   "median_days_to_close": 61.0
+   "evaluable": 181.0,
+   "on_time": 133.0,
+   "median_days_to_close": 60.5
   },
   {
    "neighborhood": "MT. WASHINGTON",
@@ -17819,8 +17797,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 269.0,
-   "evaluable": 221.0,
-   "on_time": 198.0,
+   "evaluable": 222.0,
+   "on_time": 199.0,
    "median_days_to_close": 11.5
   },
   {
@@ -17858,9 +17836,9 @@
    "sr_type": "TLGR-PRV",
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
-   "intake": 195.0,
-   "evaluable": 132.0,
-   "on_time": 116.0,
+   "intake": 194.0,
+   "evaluable": 134.0,
+   "on_time": 118.0,
    "median_days_to_close": 8.0
   },
   {
@@ -17869,8 +17847,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 217.0,
-   "evaluable": 130.0,
-   "on_time": 60.0,
+   "evaluable": 132.0,
+   "on_time": 61.0,
    "median_days_to_close": 28.0
   },
   {
@@ -17879,8 +17857,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 265.0,
-   "evaluable": 225.0,
-   "on_time": 159.0,
+   "evaluable": 227.0,
+   "on_time": 161.0,
    "median_days_to_close": 17.0
   },
   {
@@ -17899,8 +17877,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 226.0,
-   "evaluable": 174.0,
-   "on_time": 129.0,
+   "evaluable": 176.0,
+   "on_time": 131.0,
    "median_days_to_close": 15.5
   },
   {
@@ -17909,9 +17887,9 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 442.0,
-   "evaluable": 245.0,
-   "on_time": 135.0,
-   "median_days_to_close": 23.5
+   "evaluable": 247.0,
+   "on_time": 136.0,
+   "median_days_to_close": 24.0
   },
   {
    "neighborhood": "NORTHSIDE",
@@ -17919,9 +17897,9 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 383.0,
-   "evaluable": 305.0,
-   "on_time": 272.0,
-   "median_days_to_close": 4.5
+   "evaluable": 310.0,
+   "on_time": 276.0,
+   "median_days_to_close": 5.0
   },
   {
    "neighborhood": "NORTHSIDE",
@@ -17939,8 +17917,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 402.0,
-   "evaluable": 315.0,
-   "on_time": 284.0,
+   "evaluable": 325.0,
+   "on_time": 292.0,
    "median_days_to_close": 15.0
   },
   {
@@ -17949,8 +17927,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 496.0,
-   "evaluable": 264.0,
-   "on_time": 188.0,
+   "evaluable": 266.0,
+   "on_time": 190.0,
    "median_days_to_close": 42.0
   },
   {
@@ -17959,8 +17937,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 289.0,
-   "evaluable": 255.0,
-   "on_time": 232.0,
+   "evaluable": 257.0,
+   "on_time": 234.0,
    "median_days_to_close": 6.0
   },
   {
@@ -17978,9 +17956,9 @@
    "sr_type": "TLGR-PRV",
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
-   "intake": 361.0,
-   "evaluable": 280.0,
-   "on_time": 244.0,
+   "intake": 362.0,
+   "evaluable": 285.0,
+   "on_time": 249.0,
    "median_days_to_close": 11.0
   },
   {
@@ -17989,9 +17967,9 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 467.0,
-   "evaluable": 284.0,
-   "on_time": 196.0,
-   "median_days_to_close": 40.0
+   "evaluable": 290.0,
+   "on_time": 200.0,
+   "median_days_to_close": 39.5
   },
   {
    "neighborhood": "OVER-THE-RHINE",
@@ -17999,8 +17977,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 472.0,
-   "evaluable": 407.0,
-   "on_time": 365.0,
+   "evaluable": 409.0,
+   "on_time": 367.0,
    "median_days_to_close": 5.0
   },
   {
@@ -18019,8 +17997,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 223.0,
-   "evaluable": 156.0,
-   "on_time": 123.0,
+   "evaluable": 160.0,
+   "on_time": 127.0,
    "median_days_to_close": 17.0
   },
   {
@@ -18029,8 +18007,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 142.0,
-   "evaluable": 114.0,
-   "on_time": 109.0,
+   "evaluable": 115.0,
+   "on_time": 110.0,
    "median_days_to_close": 2.0
   },
   {
@@ -18049,8 +18027,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 355.0,
-   "evaluable": 234.0,
-   "on_time": 135.0,
+   "evaluable": 237.0,
+   "on_time": 137.0,
    "median_days_to_close": 15.5
   },
   {
@@ -18079,8 +18057,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 268.0,
-   "evaluable": 176.0,
-   "on_time": 164.0,
+   "evaluable": 179.0,
+   "on_time": 167.0,
    "median_days_to_close": 4.0
   },
   {
@@ -18114,12 +18092,22 @@
    "median_days_to_close": 3.0
   },
   {
+   "neighborhood": "RIVERSIDE",
+   "sr_type": "TLGR-PRV",
+   "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
+   "committed_days": 45,
+   "intake": 145.0,
+   "evaluable": 101.0,
+   "on_time": 87.0,
+   "median_days_to_close": 16.5
+  },
+  {
    "neighborhood": "ROSELAWN",
    "sr_type": "BLD-RES",
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 422.0,
-   "evaluable": 288.0,
+   "evaluable": 289.0,
    "on_time": 159.0,
    "median_days_to_close": 102.0
   },
@@ -18129,8 +18117,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 401.0,
-   "evaluable": 323.0,
-   "on_time": 243.0,
+   "evaluable": 334.0,
+   "on_time": 254.0,
    "median_days_to_close": 12.0
   },
   {
@@ -18149,8 +18137,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 286.0,
-   "evaluable": 221.0,
-   "on_time": 199.0,
+   "evaluable": 223.0,
+   "on_time": 201.0,
    "median_days_to_close": 12.0
   },
   {
@@ -18169,8 +18157,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 201.0,
-   "evaluable": 133.0,
-   "on_time": 105.0,
+   "evaluable": 137.0,
+   "on_time": 109.0,
    "median_days_to_close": 14.0
   },
   {
@@ -18180,7 +18168,7 @@
    "committed_days": 45,
    "intake": 139.0,
    "evaluable": 114.0,
-   "on_time": 92.0,
+   "on_time": 91.0,
    "median_days_to_close": 15.0
   },
   {
@@ -18189,8 +18177,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 173.0,
-   "evaluable": 124.0,
-   "on_time": 85.0,
+   "evaluable": 127.0,
+   "on_time": 88.0,
    "median_days_to_close": 18.0
   },
   {
@@ -18199,8 +18187,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 228.0,
-   "evaluable": 132.0,
-   "on_time": 69.0,
+   "evaluable": 134.0,
+   "on_time": 70.0,
    "median_days_to_close": 63.0
   },
   {
@@ -18209,8 +18197,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 387.0,
-   "evaluable": 325.0,
-   "on_time": 217.0,
+   "evaluable": 330.0,
+   "on_time": 222.0,
    "median_days_to_close": 17.0
   },
   {
@@ -18229,9 +18217,9 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 291.0,
-   "evaluable": 222.0,
-   "on_time": 129.0,
-   "median_days_to_close": 24.0
+   "evaluable": 229.0,
+   "on_time": 135.0,
+   "median_days_to_close": 25.0
   },
   {
    "neighborhood": "SPRING GROVE VILLAGE",
@@ -18259,8 +18247,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 536.0,
-   "evaluable": 354.0,
-   "on_time": 197.0,
+   "evaluable": 363.0,
+   "on_time": 202.0,
    "median_days_to_close": 28.0
   },
   {
@@ -18269,8 +18257,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 534.0,
-   "evaluable": 445.0,
-   "on_time": 373.0,
+   "evaluable": 447.0,
+   "on_time": 375.0,
    "median_days_to_close": 12.0
   },
   {
@@ -18289,8 +18277,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 382.0,
-   "evaluable": 311.0,
-   "on_time": 246.0,
+   "evaluable": 314.0,
+   "on_time": 248.0,
    "median_days_to_close": 15.0
   },
   {
@@ -18299,8 +18287,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 619.0,
-   "evaluable": 382.0,
-   "on_time": 219.0,
+   "evaluable": 391.0,
+   "on_time": 223.0,
    "median_days_to_close": 49.0
   },
   {
@@ -18309,8 +18297,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 629.0,
-   "evaluable": 561.0,
-   "on_time": 472.0,
+   "evaluable": 569.0,
+   "on_time": 480.0,
    "median_days_to_close": 5.0
   },
   {
@@ -18329,8 +18317,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 375.0,
-   "evaluable": 316.0,
-   "on_time": 278.0,
+   "evaluable": 320.0,
+   "on_time": 282.0,
    "median_days_to_close": 16.0
   },
   {
@@ -18339,8 +18327,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 1161.0,
-   "evaluable": 774.0,
-   "on_time": 384.0,
+   "evaluable": 779.0,
+   "on_time": 388.0,
    "median_days_to_close": 21.0
   },
   {
@@ -18349,8 +18337,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 1493.0,
-   "evaluable": 1156.0,
-   "on_time": 1008.0,
+   "evaluable": 1168.0,
+   "on_time": 1018.0,
    "median_days_to_close": 8.0
   },
   {
@@ -18369,8 +18357,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 1450.0,
-   "evaluable": 1076.0,
-   "on_time": 872.0,
+   "evaluable": 1097.0,
+   "on_time": 892.0,
    "median_days_to_close": 15.0
   },
   {
@@ -18379,8 +18367,8 @@
    "service_label": "BUILDING, RESIDENTIAL",
    "committed_days": 365,
    "intake": 1688.0,
-   "evaluable": 1059.0,
-   "on_time": 639.0,
+   "evaluable": 1068.0,
+   "on_time": 643.0,
    "median_days_to_close": 64.0
   },
   {
@@ -18389,8 +18377,8 @@
    "service_label": "LITTER, PRIVATE PROPERTY",
    "committed_days": 45,
    "intake": 1404.0,
-   "evaluable": 1159.0,
-   "on_time": 969.0,
+   "evaluable": 1169.0,
+   "on_time": 977.0,
    "median_days_to_close": 9.0
   },
   {
@@ -18409,8 +18397,8 @@
    "service_label": "TALL GRASS/WEEDS, PRIVATE PROP",
    "committed_days": 45,
    "intake": 1255.0,
-   "evaluable": 929.0,
-   "on_time": 795.0,
+   "evaluable": 947.0,
+   "on_time": 811.0,
    "median_days_to_close": 15.0
   },
   {
@@ -18456,24 +18444,24 @@
    "year": 2025,
    "intake": 61439.0,
    "duplicates": 1856.0,
-   "evaluable": 58984.0,
-   "on_time": 39523.0
+   "evaluable": 59042.0,
+   "on_time": 39556.0
   },
   {
    "method_received": "311 CALL",
    "year": 2026,
    "intake": 47264.0,
-   "duplicates": 1205.0,
-   "evaluable": 42621.0,
-   "on_time": 32713.0
+   "duplicates": 1215.0,
+   "evaluable": 43007.0,
+   "on_time": 33012.0
   },
   {
    "method_received": "CHAT",
    "year": 2026,
    "intake": 5089.0,
-   "duplicates": 162.0,
-   "evaluable": 4600.0,
-   "on_time": 3027.0
+   "duplicates": 164.0,
+   "evaluable": 4651.0,
+   "on_time": 3058.0
   },
   {
    "method_received": "CITY DEPARTMENT",
@@ -18504,8 +18492,8 @@
    "year": 2026,
    "intake": 275.0,
    "duplicates": 0.0,
-   "evaluable": 86.0,
-   "on_time": 74.0
+   "evaluable": 88.0,
+   "on_time": 75.0
   },
   {
    "method_received": "CSR_API",
@@ -18528,16 +18516,16 @@
    "year": 2025,
    "intake": 535.0,
    "duplicates": 22.0,
-   "evaluable": 507.0,
-   "on_time": 326.0
+   "evaluable": 509.0,
+   "on_time": 327.0
   },
   {
    "method_received": "EMAIL",
    "year": 2026,
    "intake": 423.0,
    "duplicates": 7.0,
-   "evaluable": 375.0,
-   "on_time": 267.0
+   "evaluable": 378.0,
+   "on_time": 269.0
   },
   {
    "method_received": "INSPECTOR",
@@ -18560,16 +18548,16 @@
    "year": 2025,
    "intake": 1796.0,
    "duplicates": 3.0,
-   "evaluable": 1740.0,
-   "on_time": 1212.0
+   "evaluable": 1749.0,
+   "on_time": 1214.0
   },
   {
    "method_received": "INSPECTOR",
    "year": 2026,
    "intake": 1461.0,
    "duplicates": 31.0,
-   "evaluable": 992.0,
-   "on_time": 702.0
+   "evaluable": 1034.0,
+   "on_time": 740.0
   },
   {
    "method_received": "INTERNET",
@@ -18591,17 +18579,17 @@
    "method_received": "INTERNET",
    "year": 2025,
    "intake": 80405.0,
-   "duplicates": 4049.0,
-   "evaluable": 75040.0,
-   "on_time": 43610.0
+   "duplicates": 4051.0,
+   "evaluable": 75147.0,
+   "on_time": 43674.0
   },
   {
    "method_received": "INTERNET",
    "year": 2026,
    "intake": 59571.0,
-   "duplicates": 2923.0,
-   "evaluable": 49853.0,
-   "on_time": 37923.0
+   "duplicates": 2940.0,
+   "evaluable": 50478.0,
+   "on_time": 38414.0
   },
   {
    "method_received": "PHONE",
@@ -18624,16 +18612,16 @@
    "year": 2025,
    "intake": 4977.0,
    "duplicates": 122.0,
-   "evaluable": 4731.0,
-   "on_time": 3245.0
+   "evaluable": 4744.0,
+   "on_time": 3249.0
   },
   {
    "method_received": "PHONE",
    "year": 2026,
    "intake": 3436.0,
-   "duplicates": 105.0,
-   "evaluable": 1902.0,
-   "on_time": 1411.0
+   "duplicates": 106.0,
+   "evaluable": 1985.0,
+   "on_time": 1469.0
   },
   {
    "method_received": "RADIO",
@@ -18664,8 +18652,8 @@
    "year": 2026,
    "intake": 2077.0,
    "duplicates": 15.0,
-   "evaluable": 2050.0,
-   "on_time": 1809.0
+   "evaluable": 2052.0,
+   "on_time": 1812.0
   },
   {
    "method_received": "TROD EMPLOYEE",

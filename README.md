@@ -1,215 +1,136 @@
-# cincy-311-service-performance
-The analysis: Python, SQL, reports
+# Cincinnati 311 service performance
 
-[README.md](https://github.com/user-attachments/files/32417262/README.md)
-# Cincinnati 311 Service Performance
+**A city service fails every summer, and the fix is not a longer promise.**
 
-An operations analytics case study on non-emergency service requests in the
-City of Cincinnati.
+An operations analysis of 517,287 Cincinnati 311 service requests, 2023 to 2026.
 
-**Decision this project supports:** which service categories and neighborhoods
-are missing the city's service-level commitments, what drives the misses, and
-where the city should add capacity versus reset the commitment.
+Bulky-waste collection misses its 14-day commitment in a concentrated,
+predictable window every year. In 2024, **84 percent of the service's annual
+missed commitments fell in four months**; it runs at 95 to 99 percent the rest
+of the year. Demand does not explain it: July 2026 carried 10 percent more
+volume than March and lost 21 percentage points.
 
-**Status:** step 1 of 10 (data acquisition). No findings yet. Nothing in this
-repository should be read as an analytical result.
+**Recommendation:** fund seasonal capacity for June to September, and do not
+lengthen the commitment. Lengthening it was already tried, during the
+off-season, and demonstrated nothing.
 
-## Source
+Read the [decision memo](reports/recommendation_memo.md) first.
 
-| Item | Value |
+---
+
+## What is here
+
+| File | What it is |
 | --- | --- |
-| Publisher | City of Cincinnati, Office of Performance and Data Analytics |
-| Dataset | Cincinnati 311 (Non-Emergency) Service Requests |
-| Portal | https://data.cincinnati-oh.gov |
-| Dataset id | `gcej-gmiw` |
-| Refresh | Daily |
-| Access | Socrata open data API, no authentication required |
+| [`reports/recommendation_memo.md`](reports/recommendation_memo.md) | The decision, the trade-offs, the measurement plan, the limits |
+| [`reports/metric_dictionary.md`](reports/metric_dictionary.md) | Locked definitions, populations, exclusion rules |
+| [`reports/source_definitions.md`](reports/source_definitions.md) | Where the publisher's documentation conflicts with the data |
+| [`reports/validation_log__2026-09-18.md`](reports/) | 19 integrity checks with their SQL and results |
+| [`reports/analysis_tables__2026-09-18.md`](reports/) | Every analysis query and its output |
+| [`reports/charts/`](reports/charts/) | Five figures, with alt text |
+| [`CLAUDE.md`](CLAUDE.md) | Locked decisions, known traps, conventions |
 
-The publisher applies address verification, geocoding, attribute decoding, and
-administrative area assignment before publication. Exact terms of use should be
-confirmed on the portal before any public release of derived work.
+## Three findings that only appeared because the data was checked first
 
-## Setup (Windows, Anaconda Prompt)
+**The publisher's own field definition contradicts the data.** The city's data
+dictionary states the completion clock starts when work begins. The data starts
+it at submission, on 517,214 of 517,214 testable rows, with no exceptions.
 
-Run these from the **Anaconda Prompt**, not Git Bash. Conda activation does not
-work in Git Bash without extra configuration. Use Git Bash for git, Anaconda
-Prompt for running the project.
+**Service descriptions are not a stable identity.** 695 code-and-description
+pairs exist across only 524 codes, and 63 percent of requests sit under a code
+carrying several concurrent descriptions. One service appears as both
+`LITTER, PRIVATE PROPERTY` and `LITTER,  PRIVATE PROPERTY`; the difference is a
+single space, and matching on the text dropped 4,598 of 15,824 requests.
+
+**A censoring bias made a failing service look perfect.** Counting a request as
+on time the moment it closes, with its deadline still in the future, admits only
+the fast closers from a recent cohort. Uncorrected, a 365-day service read
+**100 percent on time for 2026**, because nothing created in 2026 is due until
+2027. Every trend here is restricted to requests whose committed date had
+actually passed.
+
+## How it is built
+
+Python and SQL, DuckDB as the engine, no cloud dependency.
 
 ```
-cd %USERPROFILE%\projects\cincy-311
+python -m src.run_all              # the whole pipeline
+python -m src.run_all --no-ingest  # reuse the existing snapshot
+python -m src.run_all --from model # resume from a step
+```
+
+| Step | Command | Writes |
+| --- | --- | --- |
+| Inspect a source before pulling it | `python -m src.discover` | console |
+| Snapshot plus provenance manifest | `python -m src.ingest` | `data/raw/` |
+| 19 integrity checks | `python -m src.validate` | `reports/validation_log__*.md` |
+| Apply definitions, reconcile the population | `python -m src.metrics` | console |
+| Build and test the star schema | `python -m src.model` | `data/warehouse.duckdb` |
+| 15 analysis queries | `python -m src.analysis` | `reports/analysis_tables__*.md` |
+| Five figures plus alt text | `python -m src.charts` | `reports/charts/` |
+| Aggregates for a dashboard or BI tool | `python -m src.export` | `reports/exports/` |
+
+### Design rules
+
+1. **`data/raw/` is immutable.** Nothing edits a raw file in place. Each pull
+   writes a manifest recording the dataset id, the exact filter, the pull
+   timestamp, the row count and a SHA-256 hash. Manifests are committed; the
+   data files are gitignored and rebuildable from them.
+2. **Everything downloads as text.** Types are decided in a later step with the
+   rules written down, so "blank" and "missing" stay distinguishable.
+3. **Definitions live in one file.** `src/definitions.py` is imported by both the
+   model and the analysis, so one definition cannot drift into three.
+4. **The model is tested on every build.** Twenty tests covering grain,
+   referential integrity, key uniqueness, fan-out, and a reconciliation proving
+   the star reproduces the pre-model on-time rate to two decimal places. A
+   failure stops the build.
+5. **Every record is classified.** All 517,287 fall into exactly one of seven
+   outcome buckets, summed and reconciled to the manifest on every run.
+6. **Rates are never stored.** The model holds additive counts and divides after
+   filtering, so a filtered total cannot become an average of percentages.
+7. **The as-of date comes from the snapshot manifest, never the system clock.**
+   The same input file must produce the same answer on any day.
+
+## Setup
+
+Windows with Anaconda:
+
+```
 conda env create -f environment.yml
 conda activate cincy311
-python -m ipykernel install --user --name cincy311 --display-name "Python (cincy311)"
+python -m src.run_all --no-ingest
 ```
 
-The last line registers the environment as a Jupyter kernel, so notebooks use
-the same library versions as the scripts.
-
-Optional. Anonymous API requests are throttled more heavily than
-token-authenticated ones. Register a free app token on the portal, then:
+Other platforms:
 
 ```
-conda env config vars set SOCRATA_APP_TOKEN=your-token
-conda activate cincy311
-```
-
-Setting it through conda makes it persist for the environment. A plain
-`set SOCRATA_APP_TOKEN=...` only lasts for the current window.
-
-### Other platforms
-
-```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Step 1: acquire a reproducible snapshot
+Optional: the Socrata API throttles anonymous requests. Register a free app
+token on the portal, then `conda env config vars set SOCRATA_APP_TOKEN=...`.
 
-**Always run scripts from the project root**, using `-m`. Running
-`python src\discover.py` from inside `src\` fails, because the `from . import`
-statements need the package context.
+## Source and limits
 
-```
-# 1a. Inspect the dataset before pulling it
-python -m src.discover
+City of Cincinnati 311 Non-Emergency Service Requests, dataset `gcej-gmiw`,
+published on the [city open data portal](https://data.cincinnati-oh.gov) and
+refreshed daily. Snapshot taken 18 September 2026, covering requests created
+1 January 2023 to 31 August 2026.
 
-# 1b. After setting CREATED_DATE_FIELD in src/config.py, pull the snapshot
-python -m src.ingest
-```
+- **311 records reports, not incidents.** Volume reflects what residents choose
+  to report and through which channel.
+- **Response timeliness cannot be measured.** The field recording when work began
+  is blank on 97.8 percent of rows, so only completion timeliness is reported.
+- **Closure codes are undefined by the publisher.** Treating them as completed
+  service yields a citywide on-time rate of 72.5 percent; under the alternative
+  reading it is 61.2 percent. The headline is a range, and the sensitivity test
+  is in `src/metrics.py`.
+- **Trend reporting covers 13.3 percent of volume.** Only four services held a
+  stable commitment across the window.
+- **No cost or staffing figure is estimated or assumed anywhere.**
 
-Prefer Jupyter for step 1a? `notebooks/01_discover.ipynb` does the same thing
-interactively. Launch with `jupyter lab` from the project root and select the
-"Python (cincy311)" kernel.
+Full list in the [memo](reports/recommendation_memo.md#limitations).
 
-Outputs land in `data/raw/`:
-
-- `service_requests__<date>.csv.gz` the rows exactly as returned, all values as text
-- `service_requests__<date>.manifest.json` dataset id, filter, pull timestamp,
-  row count, column list, and a SHA-256 hash of the data file
-
-The data file is gitignored. The manifest is committed. Anyone can reproduce
-the data file from the manifest plus `src/ingest.py`.
-
-## Step 2: profile and validate
-
-```
-python -m src.validate
-```
-
-Runs 17 checks against the snapshot and writes `reports/validation_log__<date>.md`.
-
-This step describes the data and finds its problems. It changes nothing and
-interprets nothing. Cleaning rules are decided in step 3, with the evidence
-from this log in hand.
-
-## Step 2b: reconcile against the publisher's data dictionary
-
-`reports/source_definitions.md` records where the city's published field
-definitions agree with the data, where they conflict, and where the data
-contains fields the city has not documented. Step 3 cites it for every metric
-definition.
-
-## Step 3: lock the metric definitions
-
-```
-python -m src.metrics
-```
-
-`src/definitions.py` holds the executable definitions, `reports/metric_dictionary.md`
-the prose version for a reader. The script applies them, reconciles every
-outcome bucket back to the manifest row count, prints the headline metrics, and
-runs a sensitivity test on the one assumption the publisher does not document.
-
-Definitions are locked before any number is produced. Changing one after step 4
-means rebuilding the model.
-
-## Step 4: build the dimensional model
-
-```
-python -m src.model
-```
-
-Builds `data/warehouse.duckdb`: a star schema at one row per service request,
-with conformed dimensions for date, service, organization, neighborhood and
-status. Eighteen tests run on every build and a failure stops the script.
-
-`dim_date` is a role-playing dimension, joined three times as created, due and
-closed. Rates are never stored in the fact table; they are computed from
-additive counts so that a filtered total stays correct.
-
-## Step 5: the analysis
-
-```
-python -m src.analysis
-```
-
-Ten queries against the star schema, written to
-`reports/analysis_tables__<date>.md` with their SQL alongside each result.
-
-Produces evidence, not conclusions. The recommendation is step 7 and the charts
-are step 8, deliberately separated so the evidence can be checked without
-arguing about what it means.
-
-## Step 7: the recommendation
-
-`reports/recommendation_memo.md` states the decision, the recommended action,
-what not to act on, how to measure whether it worked, and what the analysis
-cannot establish. No cost figures are estimated or assumed.
-
-## Step 8: charts
-
-```
-python -m src.charts
-```
-
-Writes five figures to `reports/charts/` as PNG and SVG, plus `alt_text.md` and
-`alt_text.json`. Static on purpose: a PNG renders everywhere, loads instantly,
-and cannot break. Palette is Okabe-Ito, colourblind-safe. Titles state the
-finding, not the variable.
-
-## Step 8b: export aggregates
-
-```
-python -m src.export
-```
-
-Writes `reports/exports/`: one `metrics.json` for a web dashboard and matching
-CSVs for Power BI, Tableau or Excel. Pre-aggregated, so a dashboard renders
-numbers rather than calculating them, and the site and a BI tool cannot drift
-apart. Numerators and denominators are exported, never rates, so filtering
-cannot produce a wrong percentage.
-
-## Design rules
-
-1. `data/raw/` is immutable. No step edits a raw file in place.
-2. Every value is read as text at download time. Typing happens in step 2 with
-   written rules, so that "blank" and "missing" stay distinguishable.
-3. Every server-side page request carries an explicit stable sort order.
-4. Every number that reaches the website traces back to a named snapshot.
-
-## Layout
-
-```
-environment.yml   conda environment definition
-src/config.py     all tunable values: dataset ids, window, page size
-src/socrata.py    API client: columns, sample, paged fetch, retries
-src/discover.py   step 1a, inspect before you pull
-src/ingest.py     step 1b, snapshot plus manifest
-src/db.py         DuckDB connection, registers the snapshot as a SQL view
-src/validate.py   step 2, profiling and validation checks
-src/definitions.py step 3, the locked metric definitions (single source of truth)
-src/metrics.py    step 3, applies them and reconciles the population
-src/model.py      step 4, builds and tests the star schema
-src/analysis.py   step 5, the analysis queries
-src/charts.py     step 8, static figures and their alt text
-src/export.py     step 8b, pre-aggregated metrics for a dashboard or BI tool
-data/warehouse.duckdb  the built model (gitignored, rebuildable)
-reports/          validation logs, source definitions, metric dictionary (committed)
-notebooks/        exploration only, never a pipeline dependency
-data/raw/         immutable snapshots (gitignored) and manifests (committed)
-```
-
-**Notebooks explore, scripts produce.** A notebook can be run out of order and
-still work in your session while failing for everyone else. Anything a later
-step depends on lives in `src/`.
-
+Analysis and views are my own and are not affiliated with or endorsed by the
+City of Cincinnati.

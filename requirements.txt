@@ -1,0 +1,7 @@
+# Pinned loosely on purpose: these are stable libraries and you want the
+# project to still install in six months.
+pandas>=2.0
+requests>=2.28
+duckdb>=1.0        # SQL engine used from step 2 onward
+pyarrow>=14.0      # parquet support for the typed layer
+matplotlib>=3.7    # static charts for the website in step 8

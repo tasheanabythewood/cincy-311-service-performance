@@ -1,0 +1,29 @@
+# Conda environment for the Cincinnati 311 service performance project.
+#
+# Create it once:      conda env create -f environment.yml
+# Activate it always:  conda activate cincy311
+#
+# WHY A DEDICATED ENVIRONMENT: if you install into Anaconda's base environment,
+# every other project on your machine shares it. Six months from now you cannot
+# tell which library versions produced your results, and an upgrade for an
+# unrelated project can silently change your numbers. A named environment plus
+# this file is how someone else reproduces your work.
+
+name: cincy311
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - pandas>=2.0
+  - requests>=2.28
+  - pyarrow>=14.0
+  - matplotlib>=3.7
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      # Installed via pip rather than conda: the pip wheel is the package the
+      # DuckDB project publishes and tests directly.
+      - duckdb>=1.0
