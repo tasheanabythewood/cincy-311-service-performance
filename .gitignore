@@ -1,0 +1,19 @@
+# Data is reproducible from src/ingest.py plus the committed manifest.
+# Keep it out of the repository: it is large, and it will go stale.
+data/raw/*.csv.gz
+data/interim/
+data/*.duckdb
+
+# Manifests ARE committed. They are the provenance record.
+!data/raw/*.manifest.json
+
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Notebook outputs are noise in diffs. Clear outputs before committing.
